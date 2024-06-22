@@ -278,7 +278,7 @@ if __name__ == "__main__":
     construct_log_json(chromelog_path)
     log_path = os.path.join(os.getcwd(),'assesment','assets','filtered_logs.json')
 
-    result, hints = testng_validation_assess(testng_report_path=testngreport_path, 
+    result, hints = testng_validation_assess(testng_report_path=testngreport_path,  
                                       filtered_log=log_path, 
                                       testng_assessment=assessment_instructions['instruction_set'])
     
